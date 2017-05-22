@@ -1,0 +1,22 @@
+#fancy ul{
+    width: 300px;
+    padding: 0;
+}
+
+#fancy ul li{
+    list-style: none;
+    margin: 5px;
+}
+
+#fancy ul li img{
+    width: 16px;
+    vertical-align: sub;
+}
+
+#fancy ul li img.disabled{
+    filter: grayscale(100%)
+}
+
+.toggle-all-special-mode{
+    border: 1px solid #000;
+}
